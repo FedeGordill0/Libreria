@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Meditaciones",
+    "autor": "Aurelio Marco",
+    "edicion": 11
+}
+
+###
+DELETE http://localhost:9000/api/5 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Meditaciones",
+    "autor": "Aurelio Marco",
+    "edicion": 11
+}
